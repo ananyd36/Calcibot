@@ -1,0 +1,39 @@
+[main]
+	label_dych:Welcome to the calculator:continue
+		label_mxke:{"name":"quickreply","type":"quick_reply","alias":"Hi. Would you like to operate?","content":{"type":"text","text":"Hi. Would you like to operate?"},"options":[{"type":"text","title":"Add"},{"type":"text","title":"subtract"},{"type":"text","title":"divide"},{"type":"text","title":"multiply"},{"type":"text","title":"Factorial"},{"type":"text","title":"SquareRoot"},{"type":"text","title":"CubeRoot"}]}
+			label_arse:Add
+				label_vqpt:Please enter first number
+					label_nfqo:
+						label_stzi:Please enter second
+							label_dbh:
+								label_res:{{result}}
+			label_vcdf:subtract
+				label_xcvd:Please enter first number
+					label_kas:
+						label_hgsa:Please second number
+							label_yes:
+								label_qws:{{sresult}}	
+			label_vcd:divide
+				label_xcv:Please enter first number
+					label_ka:
+						label_hgs:Please second number
+							label_ye:
+								label_qw:{{sresul}}
+			label_mul:multiply
+				label_fir:Please enter first number
+					label_ncc:
+						label_sec:Please enter second number
+							label_xn:
+								label_re:{{mresult}}
+			label_asd:Factorial	
+				label_aww:Please enter a number
+					label_jad:
+						label_wuw:{{factorial}}
+			label_qsa:SquareRoot
+				label_jdd:Enter an integer!
+					label_user:
+						label_lkj:{{square}}
+			label_nvb:CubeRoot
+				label_mzx:Enter an Integer!
+					label_qoi:
+						label_qwerty:{{cube}}
