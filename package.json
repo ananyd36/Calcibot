@@ -9,7 +9,7 @@
     "deploy": "node ./node_modules/gupshup-local-botrunner/deploy.js"
   },
   "author": {
-    "name": "Anany",
+    "name": "Anany Sharma",
     "email": "ananyd9@gmail.com",
     "url": ""
   },
