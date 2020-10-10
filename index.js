@@ -6,6 +6,7 @@ function MessageHandler(context, event) {
     ScriptHandler(context, event);
 }
 
+//Event Handler
 function EventHandler(context, event) {
     context.simpledb.roomleveldata = {};
     MessageHandler(context, event);
@@ -28,6 +29,7 @@ function ScriptHandler(context, event) {
     botScriptExecutor.execute(options, event, context);
 }
 
+//Handle HTTP Response
 function HttpResponseHandler(context, event) {
     if (event.geturl === "http://ip-api.com/json")
         context.sendResponse('This is response from http \n' + JSON.stringify(event.getresp, null, '\t'));
@@ -41,10 +43,12 @@ function DbPutHandler(context, event) {
     context.sendResponse("testdbput keyword was last sent by:" + JSON.stringify(event.dbval));
 }
 
+//Endpoints
 function HttpEndpointHandler(context, event) {
     context.sendResponse('This is response from http \n' + JSON.stringify(event, null, '\t'));
 }
 
+// success
 function LocationHandler(context, event) {
     context.sendResponse("Got location");
 }
